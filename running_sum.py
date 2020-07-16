@@ -6,6 +6,5 @@ for index,i in enumerate(a):
     sum.append(s)
 
     print(index,i)
-
 print(sum)
     
