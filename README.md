@@ -3,8 +3,12 @@ Dravid_list
 - Problem 1 - Running sum array
 - Problem 2 - Number of Good pairs 
 - Problem 3 - Shuffle Array
-- Problem 4                                                                                                Count:
+- Problem 4                                                                                                
 - Problem 5
-- Problem 6                                                                                                  -*Easy - 3
-- Problem 7                                                                                                  -*Medium - 0
-- Problem 8                                                                                                  -*Hard - 0
+- Problem 6                                                                                                 
+- Problem 7                                                                                                  
+- Problem 8                                                                                                  
+Count:
+ -*Easy - 3
+ -*Medium - 0
+ -*Hard - 0
