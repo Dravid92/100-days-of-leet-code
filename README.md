@@ -9,6 +9,6 @@ Dravid_list
 - Problem 7                                                                                                  
 - Problem 8                                                                                                  
 Count:
- -*Easy - 3
- -*Medium - 0
- -*Hard - 0
+-*Easy - 3
+-*Medium - 0
+-*Hard - 0
