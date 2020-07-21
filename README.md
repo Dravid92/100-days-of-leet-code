@@ -6,12 +6,14 @@
 
 3) Length of Last Word (easy)
 
+4) Merge sorted array (easy)
+
 
 
 
 Count:
 
-E - 2
+E - 3
 
 M - 1
 
