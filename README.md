@@ -57,6 +57,7 @@ Example 1:
 Input: nums = [3,4,5,2]
 Output: 12 
 Explanation: If you choose the indices i=1 and j=2 (indexed from 0), you will get the maximum value, that is, (nums[1]-1)*(nums[2]-1) = (4-1)*(5-1) = 3*4 = 12.
+<<<<<<< HEAD
 
 # (E)Problem 6 :
 Given a positive integer num consisting only of digits 6 and 9.
@@ -73,3 +74,5 @@ Changing the second digit results in 9969.
 Changing the third digit results in 9699.
 Changing the fourth digit results in 9666. 
 The maximum number is 9969.
+=======
+>>>>>>> 1c4835805e0ef701b144d42c995a6e0791e2010c
