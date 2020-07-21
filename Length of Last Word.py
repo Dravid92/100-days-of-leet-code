@@ -1,23 +1,3 @@
-# Runtime: 44 ms, faster than 19.89% of Python3 online submissions for Length of Last Word.
-# Memory Usage: 13.9 MB, less than 38.90% of Python3 online submissions for Length of Last Word.
-
-
-
-
-class Solution:
-    def lengthOfLastWord(self, s: str) -> int:
-        
-        lst = s.split()
-        
-        if len(lst) >=1:
-            fl = len(lst[-1])
-        else:
-            fl = 0
-        
-        return fl
-
-
-
 """
 Problem Statement
 """
@@ -36,3 +16,27 @@ Input: "Hello World"
 Output: 5
 
 """
+
+"""
+Runtime: 44 ms, faster than 19.89% of Python3 online submissions for Length of Last Word.
+Memory Usage: 13.9 MB, less than 38.90% of Python3 online submissions for Length of Last Word.
+"""
+
+
+"""
+Solution
+"""
+class Solution:
+    def lengthOfLastWord(self, s: str) -> int:
+        
+        lst = s.split()
+        
+        if len(lst) >=1:
+            fl = len(lst[-1])
+        else:
+            fl = 0
+        
+        return fl
+
+
+
