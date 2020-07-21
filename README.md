@@ -48,3 +48,28 @@ Explanation: We have 3 students where:
 The first student started doing homework at time 1 and finished at time 3 and wasn't doing anything at time 4.
 The second student started doing homework at time 2 and finished at time 2 and also wasn't doing anything at time 4.
 The third student started doing homework at time 3 and finished at time 7 and was the only student doing homework at time 4.
+
+# (E)Problem 5 :
+Given the array of integers nums, you will choose two different indices i and j of that array. Return the maximum value of (nums[i]-1)*(nums[j]-1).
+ 
+Example 1:
+
+Input: nums = [3,4,5,2]
+Output: 12 
+Explanation: If you choose the indices i=1 and j=2 (indexed from 0), you will get the maximum value, that is, (nums[1]-1)*(nums[2]-1) = (4-1)*(5-1) = 3*4 = 12.
+
+# (E)Problem 6 :
+Given a positive integer num consisting only of digits 6 and 9.
+
+Return the maximum number you can get by changing at most one digit (6 becomes 9, and 9 becomes 6).
+
+###Example 1:
+
+Input: num = 9669
+Output: 9969
+Explanation: 
+Changing the first digit results in 6669.
+Changing the second digit results in 9969.
+Changing the third digit results in 9699.
+Changing the fourth digit results in 9666. 
+The maximum number is 9969.
