@@ -74,4 +74,3 @@ Changing the second digit results in 9969.
 Changing the third digit results in 9699.
 Changing the fourth digit results in 9666. 
 The maximum number is 9969.
->>>>>>> 1c4835805e0ef701b144d42c995a6e0791e2010c
