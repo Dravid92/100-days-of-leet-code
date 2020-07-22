@@ -57,7 +57,6 @@ Example 1:
 Input: nums = [3,4,5,2]
 Output: 12 
 Explanation: If you choose the indices i=1 and j=2 (indexed from 0), you will get the maximum value, that is, (nums[1]-1)*(nums[2]-1) = (4-1)*(5-1) = 3*4 = 12.
-<<<<<<< HEAD
 
 # (E)Problem 6 :
 Given a positive integer num consisting only of digits 6 and 9.
@@ -74,5 +73,14 @@ Changing the second digit results in 9969.
 Changing the third digit results in 9699.
 Changing the fourth digit results in 9666. 
 The maximum number is 9969.
-=======
->>>>>>> 1c4835805e0ef701b144d42c995a6e0791e2010c
+
+# (E)Problem 7:
+You are given the array paths, where paths[i] = [cityAi, cityBi] means there exists a direct path going from cityAi to cityBi. Return the destination city, that is, the city without any path outgoing to another city.
+
+It is guaranteed that the graph of paths forms a line without any loop, therefore, there will be exactly one destination city.
+
+###Example 1:
+
+Input: paths = [["London","New York"],["New York","Lima"],["Lima","Sao Paulo"]]
+Output: "Sao Paulo" 
+Explanation: Starting at "London" city you will reach "Sao Paulo" city which is the destination city. Your trip consist of: "London" -> "New York" -> "Lima" -> "Sao Paulo".
