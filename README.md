@@ -1,10 +1,10 @@
 # 100-days-of-leet-code
 ## Dravid_list
-- Problem 1 - Running sum array(E)
-- Problem 2 - Number of Good pairs(E)
-- Problem 3 - Shuffle Array(E)
-- Problem 4 - Number of Students doing Homework(E)                                                                                      
-- Problem 5 - Maximum product of elements in an array(E)
+- Problem 1 - Running sum array
+- Problem 2 - Number of Good pairs
+- Problem 3 - Shuffle Array
+- Problem 4 - Number of Students doing Homework                                                                                  
+- Problem 5 - Maximum product of elements in an array
 - Problem 6 - Maximum using 6,9
 - Problem 7 - Destination 
 - Problem 8 - Morse Code    
