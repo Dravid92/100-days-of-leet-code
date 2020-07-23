@@ -73,7 +73,7 @@ Changing the second digit results in 9969.
 Changing the third digit results in 9699.
 Changing the fourth digit results in 9666. 
 The maximum number is 9969.
-<<<<<<< HEAD
+
 
 # (E)Problem 7:
 You are given the array paths, where paths[i] = [cityAi, cityBi] means there exists a direct path going from cityAi to cityBi. Return the destination city, that is, the city without any path outgoing to another city.
@@ -85,5 +85,4 @@ It is guaranteed that the graph of paths forms a line without any loop, therefor
 Input: paths = [["London","New York"],["New York","Lima"],["Lima","Sao Paulo"]]
 Output: "Sao Paulo" 
 Explanation: Starting at "London" city you will reach "Sao Paulo" city which is the destination city. Your trip consist of: "London" -> "New York" -> "Lima" -> "Sao Paulo".
-=======
->>>>>>> c08e2dcf191813cb4dc8f27ef8451d8079472c3f
+
