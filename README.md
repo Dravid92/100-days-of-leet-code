@@ -1,18 +1,18 @@
 # 100-days-of-leet-code
 ## Dravid_list
-- Problem 1 - Running sum array
-- Problem 2 - Number of Good pairs
-- Problem 3 - Shuffle Array
-- Problem 4 - Number of Students doing Homework                                                                                  
-- Problem 5 - Maximum product of elements in an array
-- Problem 6 - Maximum using 6,9
-- Problem 7 - Destination 
-- Problem 8 - Morse Code    
-- Problem 9 - Decrypt_num_alp
-- Problem 10 - Count Negative
-- Problem 11 - N_unique sum zero
-- Problem 12 - Flip a image matrix
-- Problem 13 - Replace the Largest integer
+- [Problem 1 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/running_sum.py) - Running sum array
+- [Problem 2 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Number_of_good_pairs.py) - Number of Good pairs
+- [Problem 3 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Shuffle_the_array.py) - Shuffle Array
+- [Problem 4 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Number_of_students_homeworking.py) - Number of Students doing Homework                                                   
+- [Problem 5 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Max_product_of_elements.py) - Maximum product of elements in an array
+- [Problem 6 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Max_69_numbers.py) - Maximum using 6,9
+- [Problem 7:](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Destination.py) - Destination 
+- [Problem 8:](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Morse_code.py) - Morse Code    
+- [Problem 9 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Decrypt_str_alp.py) - Decrypt_num_alp
+- [Problem 10 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Count_neg.py) - Count Negative
+- [Problem 11 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/N_unique_sum_zero.py) - N_unique sum zero
+- [Problem 12 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/flip_a_image.py) - Flip a image matrix
+- [Problem 13 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Replace_with_largest.py) - Replace the Largest integer
 - Problem 14 -                                                                                       
 - Problem 15 - 
 - Problem 16 - 
