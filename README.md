@@ -125,6 +125,9 @@ Output: "jkab"
 Explanation: "j" -> "10#" , "k" -> "11#" , "a" -> "1" , "b" -> "2".
 
 # (E)Problem 10 :
+
+https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Count_neg.py
+
 Given a m * n matrix grid which is sorted in non-increasing order both row-wise and column-wise. 
 
 Return the number of negative numbers in grid.
