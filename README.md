@@ -9,10 +9,10 @@
 - Problem 7 - Destination 
 - Problem 8 - Morse Code    
 - Problem 9 - Decrypt_num_alp
-- Problem 10 -
-- Problem 11 - 
-- Problem 12 - 
-- Problem 13 - 
+- Problem 10 - Count Negative
+- Problem 11 - N_unique sum zero
+- Problem 12 - Flip a image matrix
+- Problem 13 - Replace the Largest integer
 - Problem 14 -                                                                                       
 - Problem 15 - 
 - Problem 16 - 
