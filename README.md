@@ -191,7 +191,7 @@ First iteration is done. Now s = "aabbcc" and we go back to step 1
 After steps 1, 2 and 3 of the second iteration, result = "abccbaabc"
 After steps 4, 5 and 6 of the second iteration, result = "abccbaabccba"
 
-## [(E)Problem 15 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/increasing_decreasing.py)
+## [(E)Problem 15 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Gen_str_oddcounts.py)
 
 Given an integer n, return a string with n characters such that each character in such string occurs an odd number of times.
 
