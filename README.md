@@ -13,8 +13,8 @@
 - [Problem 11 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/N_unique_sum_zero.py) - N_unique sum zero
 - [Problem 12 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/flip_a_image.py) - Flip a image matrix
 - [Problem 13 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Replace_with_largest.py) - Replace the Largest integer
-- Problem 14 -                                                                                       
-- Problem 15 - 
+- [Problem 14 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/increasing_decreasing.py) - Arrange strings algorithmically                                                                    
+- [Problem 15 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Gen_str_oddcounts.py) - Generate n stings with odd count
 - Problem 16 - 
 - Problem 17 -  
 - Problem 18 -
