@@ -3,7 +3,7 @@ Given an array nums. We define a running sum of an array as runningSum[i] = sum(
 
 Return the running sum of nums.
 
-###Example 1:
+### Example:
 
 Input: nums = [1,2,3,4]
 Output: [1,3,6,10]
@@ -16,7 +16,7 @@ A pair (i,j) is called good if nums[i] == nums[j] and i < j.
 
 Return the number of good pairs.
 
-###Example 1:
+### Example:
 
 Input: nums = [1,2,3,1,1,3]
 Output: 4
@@ -27,7 +27,7 @@ Given the array nums consisting of 2n elements in the form [x1,x2,...,xn,y1,y2,.
 
 Return the array in the form [x1,y1,x2,y2,...,xn,yn].
 
-###Example 1:
+### Example:
 
 Input: nums = [2,5,1,3,4,7], n = 3
 Output: [2,3,5,4,1,7] 
@@ -40,7 +40,7 @@ The ith student started doing their homework at the time startTime[i] and finish
 
 Return the number of students doing their homework at time queryTime. More formally, return the number of students where queryTime lays in the interval [startTime[i], endTime[i]] inclusive.
 
-###Example 1:
+### Example:
 
 Input: startTime = [1,2,3], endTime = [3,2,7], queryTime = 4
 Output: 1
@@ -52,7 +52,7 @@ The third student started doing homework at time 3 and finished at time 7 and wa
 ## [(E)Problem 5 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Max_product_of_elements.py)
 Given the array of integers nums, you will choose two different indices i and j of that array. Return the maximum value of (nums[i]-1)*(nums[j]-1).
  
-Example 1:
+### Example:
 
 Input: nums = [3,4,5,2]
 Output: 12 
@@ -63,7 +63,7 @@ Given a positive integer num consisting only of digits 6 and 9.
 
 Return the maximum number you can get by changing at most one digit (6 becomes 9, and 9 becomes 6).
 
-###Example 1:
+### Example:
 
 Input: num = 9669
 Output: 9969
@@ -80,7 +80,7 @@ You are given the array paths, where paths[i] = [cityAi, cityBi] means there exi
 
 It is guaranteed that the graph of paths forms a line without any loop, therefore, there will be exactly one destination city.
 
-###Example 1:
+### Example:
 
 Input: paths = [["London","New York"],["New York","Lima"],["Lima","Sao Paulo"]]
 Output: "Sao Paulo" 
@@ -96,7 +96,7 @@ Now, given a list of words, each word can be written as a concatenation of the M
 
 Return the number of different transformations among all words we have.
 
-###Example:
+### Example:
 
 Input: words = ["gin", "zen", "gig", "msg"]
 Output: 2
@@ -118,7 +118,7 @@ Return the string formed after mapping.
 
 It's guaranteed that a unique mapping will always exist.
 
-###Example 1:
+### Example:
 
 Input: s = "10#11#12"
 Output: "jkab"
@@ -130,7 +130,7 @@ Given a m * n matrix grid which is sorted in non-increasing order both row-wise 
 
 Return the number of negative numbers in grid.
 
-###Example 1:
+### Example:
 
 Input: grid = [[4,3,2,-1],[3,2,1,-1],[1,1,-1,-2],[-1,-1,-2,-3]]
 Output: 8
@@ -139,7 +139,7 @@ Explanation: There are 8 negatives number in the matrix.
 ## [(E)Problem 11 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/N_unique_sum_zero.py)
 Given an integer n, return any array containing n unique integers such that they add up to 0.
 
-###Example 1:
+### Example:
 
 Input: n = 5
 Output: [-7,-1,1,3,4]
@@ -152,7 +152,7 @@ To flip an image horizontally means that each row of the image is reversed.  For
 
 To invert an image means that each 0 is replaced by 1, and each 1 is replaced by 0. For example, inverting [0, 1, 1] results in [1, 0, 0].
 
-###Example 1:
+### Example:
 
 Input: [[1,1,0],[1,0,1],[0,0,0]]
 Output: [[1,0,0],[0,1,0],[1,1,1]]
@@ -164,7 +164,7 @@ Given an array arr, replace every element in that array with the greatest elemen
 
 After doing so, return the array.
 
-### Example 1:
+### Example:
 
 Input: arr = [17,18,5,4,6,1]
 Output: [18,6,6,6,1,-1]
@@ -181,7 +181,7 @@ Repeat step 5 until you cannot pick more characters.
 Repeat the steps from 1 to 6 until you pick all characters from s.
 In each step, If the smallest or the largest character appears more than once you can choose any occurrence and append it to the result.
 
-### Example 1:
+### Example:
 
 Input: s = "aaaabbbbcccc"
 Output: "abccbaabccba"
@@ -197,7 +197,7 @@ Given an integer n, return a string with n characters such that each character i
 
 The returned string must contain only lowercase English letters. If there are multiples valid strings, return any of them.  
 
-### Example 1:
+### Example:
 
 Input: n = 4
 Output: "pppz"
