@@ -164,7 +164,41 @@ Given an array arr, replace every element in that array with the greatest elemen
 
 After doing so, return the array.
 
-###Example 1:
+### Example 1:
 
 Input: arr = [17,18,5,4,6,1]
 Output: [18,6,6,6,1,-1]
+
+## [(E)Problem 14 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/increasing_decreasing.py)
+Given a string s. You should re-order the string using the following algorithm:
+
+Pick the smallest character from s and append it to the result.
+Pick the smallest character from s which is greater than the last appended character to the result and append it.
+Repeat step 2 until you cannot pick more characters.
+Pick the largest character from s and append it to the result.
+Pick the largest character from s which is smaller than the last appended character to the result and append it.
+Repeat step 5 until you cannot pick more characters.
+Repeat the steps from 1 to 6 until you pick all characters from s.
+In each step, If the smallest or the largest character appears more than once you can choose any occurrence and append it to the result.
+
+### Example 1:
+
+Input: s = "aaaabbbbcccc"
+Output: "abccbaabccba"
+Explanation: After steps 1, 2 and 3 of the first iteration, result = "abc"
+After steps 4, 5 and 6 of the first iteration, result = "abccba"
+First iteration is done. Now s = "aabbcc" and we go back to step 1
+After steps 1, 2 and 3 of the second iteration, result = "abccbaabc"
+After steps 4, 5 and 6 of the second iteration, result = "abccbaabccba"
+
+## [(E)Problem 15 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/increasing_decreasing.py)
+
+Given an integer n, return a string with n characters such that each character in such string occurs an odd number of times.
+
+The returned string must contain only lowercase English letters. If there are multiples valid strings, return any of them.  
+
+### Example 1:
+
+Input: n = 4
+Output: "pppz"
+Explanation: "pppz" is a valid string since the character 'p' occurs three times and the character 'z' occurs once. Note that there are many other valid strings such as "ohhh" and "love".
