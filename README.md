@@ -15,7 +15,7 @@
 - [Problem 13 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Replace_with_largest.py) - Replace the Largest integer
 - [Problem 14 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/increasing_decreasing.py) - Arrange strings algorithmically                                                                    
 - [Problem 15 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Gen_str_oddcounts.py) - Generate n stings with odd count
-- Problem 16 - 
+- [Problem 16 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Final_price_discount.py) - Discount price
 - Problem 17 -  
 - Problem 18 -
 - Problem 19 - 
