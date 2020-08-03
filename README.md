@@ -16,9 +16,9 @@
 - [Problem 14 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/increasing_decreasing.py) - Arrange strings algorithmically                                                                    
 - [Problem 15 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Gen_str_oddcounts.py) - Generate n stings with odd count
 - [Problem 16 :](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Final_price_discount.py) - Discount price
-- [(E)Problem 17](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Self_div_nums.py)  
-- [(E)Problem 18](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/sort_array_parity.py)
-- [(E)Problem 19](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Arthimetic_seq_detect.py) 
+- [Problem 17](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Self_div_nums.py)  
+- [Problem 18](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/sort_array_parity.py)
+- [Problem 19](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Arthimetic_seq_detect.py) 
 - Problem 20 -
 - Problem 21 - 
 - Problem 22 - 
@@ -101,6 +101,6 @@
 - Problem 99 -
 - Proble  100 -
 ## Count:
-- Easy(E) - 13
+- Easy(E) - 19
 - Medium(M) - 0
 - Hard(H) - 0
