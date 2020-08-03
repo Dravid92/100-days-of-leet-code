@@ -218,3 +218,42 @@ For item 0 with price[0]=8 you will receive a discount equivalent to prices[1]=4
 For item 1 with price[1]=4 you will receive a discount equivalent to prices[3]=2, therefore, the final price you will pay is 4 - 2 = 2. 
 For item 2 with price[2]=6 you will receive a discount equivalent to prices[3]=2, therefore, the final price you will pay is 6 - 2 = 4. 
 For items 3 and 4 you will not receive any discount at all.
+
+## [Problem 17](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Self_div_nums.py)
+
+A self-dividing number is a number that is divisible by every digit it contains.
+
+For example, 128 is a self-dividing number because 128 % 1 == 0, 128 % 2 == 0, and 128 % 8 == 0.
+
+Also, a self-dividing number is not allowed to contain the digit zero.
+
+Given a lower and upper number bound, output a list of every possible self dividing number, including the bounds if possible.
+
+### Example 1:
+Input: 
+left = 1, right = 22
+Output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 15, 22
+
+## [Problem 18](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/sort_array_parity.py)
+
+Given an array A of non-negative integers, return an array consisting of all the even elements of A, followed by all the odd elements of A.
+
+You may return any answer array that satisfies this condition.
+
+### Example 1:
+
+Input: [3,1,2,4]
+Output: [2,4,3,1]
+The outputs [4,2,3,1], [2,4,1,3], and [4,2,1,3] would also be accepted.
+
+## [Problem 19](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Arthimetic_seq_detect.py)
+
+Given an array of numbers arr. A sequence of numbers is called an arithmetic progression if the difference between any two consecutive elements is the same.
+
+Return true if the array can be rearranged to form an arithmetic progression, otherwise, return false.
+
+### Example 1:
+
+Input: arr = [3,5,1]
+Output: true
+Explanation: We can reorder the elements as [1,3,5] or [5,3,1] with differences 2 and -2 respectively, between each consecutive elements.
