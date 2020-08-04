@@ -19,7 +19,7 @@
 - [Problem 17](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Self_div_nums.py) - Self dividing numbers 
 - [Problem 18](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/sort_array_parity.py) - Even and odd sorted
 - [Problem 19](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Arthimetic_seq_detect.py) - Arthimetic sequence check
-- Problem 20 -
+- [Problem 20](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Make_two_arr_equal.py) - Target = Array 
 - Problem 21 - 
 - Problem 22 - 
 - Problem 23 - 
