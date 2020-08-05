@@ -20,7 +20,7 @@
 - [Problem 18](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/sort_array_parity.py) - Even and odd sorted
 - [Problem 19](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Arthimetic_seq_detect.py) - Arthimetic sequence check
 - [Problem 20](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Make_two_arr_equal.py) - Target = Array 
-- Problem 21 - 
+- [Problem 21](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/N_repeated_element.py) - Number that is repeated in 2N array
 - Problem 22 - 
 - Problem 23 - 
 - Problem 24 -                                                                                       
@@ -101,6 +101,6 @@
 - Problem 99 -
 - Proble  100 -
 ## Count:
-- Easy(E) - 20
+- Easy(E) - 21
 - Medium(M) - 0
 - Hard(H) - 0
