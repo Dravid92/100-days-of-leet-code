@@ -257,3 +257,21 @@ Return true if the array can be rearranged to form an arithmetic progression, ot
 Input: arr = [3,5,1]
 Output: true
 Explanation: We can reorder the elements as [1,3,5] or [5,3,1] with differences 2 and -2 respectively, between each consecutive elements.
+
+## [(E)Problem 20](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Make_two_arr_equal.py)
+
+Given two integer arrays of equal length target and arr.
+
+In one step, you can select any non-empty sub-array of arr and reverse it. You are allowed to make any number of steps.
+
+Return True if you can make arr equal to target, or False otherwise.
+
+### Example 1:
+
+Input: target = [1,2,3,4], arr = [2,4,1,3]
+Output: true
+Explanation: You can follow the next steps to convert arr to target:
+1- Reverse sub-array [2,4,1], arr becomes [1,4,2,3]
+2- Reverse sub-array [4,2], arr becomes [1,2,4,3]
+3- Reverse sub-array [4,3], arr becomes [1,2,3,4]
+There are multiple ways to convert arr to target, this is not the only way to do so.
