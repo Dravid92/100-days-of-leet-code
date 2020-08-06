@@ -275,3 +275,14 @@ Explanation: You can follow the next steps to convert arr to target:
 2- Reverse sub-array [4,2], arr becomes [1,2,4,3]
 3- Reverse sub-array [4,3], arr becomes [1,2,3,4]
 There are multiple ways to convert arr to target, this is not the only way to do so.
+
+## [(E)Problem 21](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/N_repeated_element.py)
+
+In a array A of size 2N, there are N+1 unique elements, and exactly one of these elements is repeated N times.
+
+Return the element repeated N times.
+
+### Example 1:
+
+Input: [1,2,3,3]
+Output: 3
