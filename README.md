@@ -22,7 +22,7 @@
 - [Problem 20](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Make_two_arr_equal.py) - Target = Array 
 - [Problem 21](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/N_repeated_element.py) - Number that is repeated in 2N array
 - [Problem 22](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Robo_return_origin.py) - Robot Returns to the same place
-- Problem 23 - 
+- [Problem 23](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Hamming_dis.py) - Hamming distance between two binary
 - Problem 24 -                                                                                       
 - Problem 25 - 
 - Problem 26 - 
@@ -101,6 +101,6 @@
 - Problem 99 -
 - Proble  100 -
 ## Count:
-- Easy(E) - 21
+- Easy(E) - 23
 - Medium(M) - 0
 - Hard(H) - 0
