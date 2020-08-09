@@ -300,3 +300,22 @@ Note: The way that the robot is "facing" is irrelevant. "R" will always make the
 Input: "UD"
 Output: true 
 Explanation: The robot moves up once, and then down once. All moves have the same magnitude, so it ended up at the origin where it started. Therefore, we return true.
+
+## [(E)Problem 23](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Hamming_dis.py)
+
+The Hamming distance between two integers is the number of positions at which the corresponding bits are different.
+Given two integers x and y, calculate the Hamming distance.
+
+### Example:
+
+Input: x = 1, y = 4
+
+Output: 2
+
+Explanation:
+1   (0 0 0 1)
+4   (0 1 0 0)
+       ↑   ↑
+
+The above arrows point to positions where the corresponding bits are different.
+
