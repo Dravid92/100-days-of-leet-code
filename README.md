@@ -23,8 +23,8 @@
 - [Problem 21](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/N_repeated_element.py) - Number that is repeated in 2N array
 - [Problem 22](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Robo_return_origin.py) - Robot Returns to the same place
 - [Problem 23](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Hamming_dis.py) - Hamming distance between two binary
-- Problem 24 -                                                                                       
-- Problem 25 - 
+- [Problem 24](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/square_sorted.py) - Squared Sorted Array
+- [Problem 25](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/DI_string.py) - 'DI' Strings array
 - Problem 26 - 
 - Problem 27 -  
 - Problem 28 -
