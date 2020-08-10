@@ -10,4 +10,5 @@ for n,i in enumerate(S):
         fin.append(hi)
         hi -= 1
 return fin + [lo]
+# solution checked
         
