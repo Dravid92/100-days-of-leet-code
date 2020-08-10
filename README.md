@@ -319,3 +319,24 @@ Explanation:
 
 The above arrows point to positions where the corresponding bits are different.
 
+## [(E)Problem 24](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/square_sorted.py)
+
+Given a string S that only contains "I" (increase) or "D" (decrease), let N = S.length.
+
+Return any permutation A of [0, 1, ..., N] such that for all i = 0, ..., N-1:
+
+If S[i] == "I", then A[i] < A[i+1]
+If S[i] == "D", then A[i] > A[i+1]
+
+### Example 1:
+
+Input: "IDID"
+Output: [0,4,1,3,2]
+
+## [(E)Problem 25](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/DI_string.py)
+Given an array of integers A sorted in non-decreasing order, return an array of the squares of each number, also in sorted non-decreasing order.
+
+### Example 1:
+
+Input: [-4,-1,0,3,10]
+Output: [0,1,9,16,100]
