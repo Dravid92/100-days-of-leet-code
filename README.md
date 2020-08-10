@@ -25,7 +25,7 @@
 - [Problem 23](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Hamming_dis.py) - Hamming distance between two binary
 - [Problem 24](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/square_sorted.py) - Squared Sorted Array
 - [Problem 25](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/DI_string.py) - 'DI' Strings array
-- Problem 26 - 
+- [Problem 26](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Peak_index.py) - Peak Index
 - Problem 27 -  
 - Problem 28 -
 - Problem 29 -
