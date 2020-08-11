@@ -26,7 +26,7 @@
 - [Problem 24](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/square_sorted.py) - Squared Sorted Array
 - [Problem 25](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/DI_string.py) - 'DI' Strings array
 - [Problem 26](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Peak_index.py) - Peak Index
-- Problem 27 -  
+- [Problem 27](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/unique_occurence.py)-  Unique number of repetition
 - Problem 28 -
 - Problem 29 -
 - Problem 30 -
@@ -101,6 +101,6 @@
 - Problem 99 -
 - Proble  100 -
 ## Count:
-- Easy(E) - 23
+- Easy(E) - 27
 - Medium(M) - 0
 - Hard(H) - 0
