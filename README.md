@@ -340,3 +340,16 @@ Given an array of integers A sorted in non-decreasing order, return an array of 
 
 Input: [-4,-1,0,3,10]
 Output: [0,1,9,16,100]
+
+## [(E)Problem 26](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Peak_index.py)
+
+Let's call an array A a mountain if the following properties hold:
+
+A.length >= 3
+There exists some 0 < i < A.length - 1 such that A[0] < A[1] < ... A[i-1] < A[i] > A[i+1] > ... > A[A.length - 1]
+Given an array that is definitely a mountain, return any i such that A[0] < A[1] < ... A[i-1] < A[i] > A[i+1] > ... > A[A.length - 1].
+
+## Example 1:
+
+Input: [0,1,0]
+Output: 1
