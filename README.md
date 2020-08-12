@@ -363,3 +363,15 @@ Given an array of integers arr, write a function that returns true if and only i
 Input: arr = [1,2,2,1,1,3]
 Output: true
 Explanation: The value 1 has 3 occurrences, 2 has 2 and 3 has 1. No two values have the same number of occurrences.
+
+## [(E)Problem 28](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Lucky_num.py)
+
+Given a m * n matrix of distinct numbers, return all lucky numbers in the matrix in any order.
+
+A lucky number is an element of the matrix such that it is the minimum element in its row and maximum in its column.
+
+### Example 1:
+
+Input: matrix = [[3,7,8],[9,11,13],[15,16,17]]
+Output: [15]
+Explanation: 15 is the only lucky number since it is the minimum in its row and the maximum in its column
