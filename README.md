@@ -353,3 +353,13 @@ Given an array that is definitely a mountain, return any i such that A[0] < A[1]
 
 Input: [0,1,0]
 Output: 1
+
+## [(E)Problem 27](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/unique_occurence.py)
+
+Given an array of integers arr, write a function that returns true if and only if the number of occurrences of each value in the array is unique.
+
+### Example 1:
+
+Input: arr = [1,2,2,1,1,3]
+Output: true
+Explanation: The value 1 has 3 occurrences, 2 has 2 and 3 has 1. No two values have the same number of occurrences.
