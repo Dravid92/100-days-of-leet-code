@@ -28,7 +28,7 @@
 - [Problem 26](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Peak_index.py) - Peak Index
 - [Problem 27](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/unique_occurence.py)-  Unique number of repetition
 - [Problem 28](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Lucky_num.py) - Lucky Number 
-- Problem 29 -
+- [Problem 29](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Height_checker.py)- Height Checker
 - Problem 30 -
 - Problem 31 - 
 - Problem 32 - 
