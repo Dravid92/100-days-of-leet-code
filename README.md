@@ -394,3 +394,34 @@ Target array  : [1,1,1,2,3,4]
 On index 2 (0-based) we have 4 vs 1 so we have to move this student.
 On index 4 (0-based) we have 1 vs 3 so we have to move this student.
 On index 5 (0-based) we have 3 vs 4 so we have to move this student.
+
+## [(E)Problem 30](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Avg_Salary.py)
+Given an array of unique integers salary where salary[i] is the salary of the employee i.
+
+Return the average salary of employees excluding the minimum and maximum salary.
+
+### Example 1:
+
+Input: salary = [4000,3000,1000,2000]
+Output: 2500.00000
+Explanation: Minimum salary and maximum salary are 1000 and 4000 respectively.
+Average salary excluding minimum and maximum salary is (2000+3000)/2= 2500
+
+## [(E)Problem 31](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Delete_cols.py)
+We are given an array A of N lowercase letter strings, all of the same length.
+
+Now, we may choose any set of deletion indices, and for each string, we delete all the characters in those indices.
+
+For example, if we have an array A = ["abcdef","uvwxyz"] and deletion indices {0, 2, 3}, then the final array after deletions is ["bef", "vyz"], and the remaining columns of A are ["b","v"], ["e","y"], and ["f","z"].  (Formally, the c-th column is [A[0][c], A[1][c], ..., A[A.length-1][c]]).
+
+Suppose we chose a set of deletion indices D such that after deletions, each remaining column in A is in non-decreasing sorted order.
+
+Return the minimum possible value of D.length.
+
+### Example 1:
+
+Input: A = ["cba","daf","ghi"]
+Output: 1
+Explanation: 
+After choosing D = {1}, each column ["c","d","g"] and ["a","f","i"] are in non-decreasing sorted order.
+If we chose D = {}, then a column ["b","a","h"] would not be in non-decreasing sorted order.
