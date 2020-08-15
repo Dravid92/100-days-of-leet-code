@@ -29,8 +29,8 @@
 - [Problem 27](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/unique_occurence.py)-  Unique number of repetition
 - [Problem 28](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Lucky_num.py) - Lucky Number 
 - [Problem 29](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Height_checker.py)- Height Checker
-- Problem 30 -
-- Problem 31 - 
+- [Problem 30](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Avg_Salary.py) - Average Salary 
+- [Problem 31](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Delete_cols.py) - Delete the decreasing values
 - Problem 32 - 
 - Problem 33 - 
 - Problem 34 -                                                                                       
