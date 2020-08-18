@@ -31,9 +31,9 @@
 - [Problem 29](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Height_checker.py)- Height Checker
 - [Problem 30](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Avg_Salary.py) - Average Salary 
 - [Problem 31](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Delete_cols.py) - Delete the decreasing values
-- Problem 32 - 
-- Problem 33 - 
-- Problem 34 -                                                                                       
+- [Problem 32](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Reverse_word.py) - Reverse the list of words
+- [Problem 33](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Sort_parity_2.py) - Sort array 2
+- [Problem 34](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/pop_push.py) - The 'pop', 'Push' array                                                             
 - Problem 35 - 
 - Problem 36 - 
 - Problem 37 -  
@@ -101,6 +101,6 @@
 - Problem 99 -
 - Proble  100 -
 ## Count:
-- Easy(E) - 27
+- Easy(E) - 34
 - Medium(M) - 0
 - Hard(H) - 0
