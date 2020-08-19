@@ -425,3 +425,47 @@ Output: 1
 Explanation: 
 After choosing D = {1}, each column ["c","d","g"] and ["a","f","i"] are in non-decreasing sorted order.
 If we chose D = {}, then a column ["b","a","h"] would not be in non-decreasing sorted order.
+
+## [(E)Problem 32](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Reverse_word.py)
+Given a string, you need to reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.
+
+### Example 1:
+Input: "Let's take LeetCode contest"
+Output: "s'teL ekat edoCteeL tsetnoc"
+
+## [(E)Problem 33](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Sort_parity_2.py)
+
+Given an array A of non-negative integers, half of the integers in A are odd, and half of the integers are even.
+
+Sort the array so that whenever A[i] is odd, i is odd; and whenever A[i] is even, i is even.
+
+You may return any answer array that satisfies this condition.
+
+### Example 1:
+
+Input: [4,2,5,7]
+Output: [4,5,2,7]
+Explanation: [4,7,2,5], [2,5,4,7], [2,7,4,5] would also have been accepted.
+
+## [(E)Problem 34](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/pop_push.py)
+Given an array target and an integer n. In each iteration, you will read a number from  list = {1,2,3..., n}.
+
+Build the target array using the following operations:
+
+Push: Read a new element from the beginning list, and push it in the array.
+Pop: delete the last element of the array.
+If the target array is already built, stop reading more elements.
+You are guaranteed that the target array is strictly increasing, only containing numbers between 1 to n inclusive.
+
+Return the operations to build the target array.
+
+You are guaranteed that the answer is unique.
+
+### Example 1:
+
+Input: target = [1,3], n = 3
+Output: ["Push","Push","Pop","Push"]
+Explanation: 
+Read number 1 and automatically push in the array -> [1]
+Read number 2 and automatically push in the array then Pop it -> [1]
+Read number 3 and automatically push in the array -> [1,3]
