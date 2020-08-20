@@ -475,7 +475,7 @@ Given a m * n matrix mat of ones (representing soldiers) and zeros (representing
 
 A row i is weaker than row j, if the number of soldiers in row i is less than the number of soldiers in row j, or they have the same number of soldiers but i is less than j. Soldiers are always stand in the frontier of a row, that is, always ones may appear first and then zeros.
 
-## Example 1:
+### Example 1:
 
 Input: mat = 
 [[1,1,0,0,0],
@@ -493,3 +493,17 @@ row 2 -> 1
 row 3 -> 2 
 row 4 -> 5 
 Rows ordered from the weakest to the strongest are [2,0,3,1,4]
+
+## [(E)Problem 36](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Duplicates.py)
+Given a string S of lowercase letters, a duplicate removal consists of choosing two adjacent and equal letters, and removing them.
+
+We repeatedly make duplicate removals on S until we no longer can.
+
+Return the final string after all such duplicate removals have been made.  It is guaranteed the answer is unique.
+
+### Example 1:
+
+Input: "abbaca"
+Output: "ca"
+Explanation: 
+For example, in "abbaca" we could remove "bb" since the letters are adjacent and equal, and this is the only possible move.  The result of this move is that the string is "aaca", of which only "aa" is possible, so the final string is "ca".
