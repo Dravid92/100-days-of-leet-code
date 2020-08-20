@@ -1,3 +1,4 @@
-a = [0,1,2,0]
-for i in a[::2]:
-    print(i)
+S = "abcd"
+Index=1 #index of string to remove
+S = S.replace(S[Index], "")
+print(S)
