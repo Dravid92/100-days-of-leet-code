@@ -35,7 +35,7 @@
 - [Problem 33](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Sort_parity_2.py) - Sort array 2
 - [Problem 34](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/pop_push.py) - The 'pop', 'Push' array                                                             
 - [Problem 35](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/solider_civilian.py) - The K weakest Rows
-- Problem 36 - 
+- [Problem 36](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Duplicates.py) - Remove Duplicate Strings
 - Problem 37 -  
 - Problem 38 -
 - Problem 39 -
