@@ -1,4 +1,4 @@
-S = "abcd"
-Index=1 #index of string to remove
-S = S.replace(S[Index], "")
-print(S)
+# S = "abcd"
+# Index=1 #index of string to remove
+# S = S.replace(S[Index], "")
+print(5//2)
