@@ -1,4 +1,3 @@
-# S = "abcd"
-# Index=1 #index of string to remove
-# S = S.replace(S[Index], "")
-print(5//2)
+n = 1
+bi = []
+print([bin(n).replace("0b","")].count(1))
