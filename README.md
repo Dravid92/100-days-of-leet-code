@@ -507,3 +507,16 @@ Input: "abbaca"
 Output: "ca"
 Explanation: 
 For example, in "abbaca" we could remove "bb" since the letters are adjacent and equal, and this is the only possible move.  The result of this move is that the string is "aaca", of which only "aa" is possible, so the final string is "ca".
+
+## [(E)Problem 37](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Reverse_str.py)
+
+Write a function that reverses a string. The input string is given as an array of characters char[].
+
+Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
+
+You may assume all the characters consist of printable ascii characters.
+
+## Example 1:
+
+Input: ["h","e","l","l","o"]
+Output: ["o","l","l","e","h"]
