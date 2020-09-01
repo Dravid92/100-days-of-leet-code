@@ -1,3 +1,5 @@
 t = 'test.e.mail+bob.cathy@leetcode.com'
-t = t.replace('t',"",1)
-print(t)
+t = [[1,2],[1,2]]
+for i in range(1,len(arr)):
+    if arr[i] - arr[i-1] == mini
+    print([[arr[i-1],arr[i]]])
