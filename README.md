@@ -37,21 +37,21 @@
 - [Problem 35](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/solider_civilian.py) - The K weakest Rows
 - [Problem 36](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Duplicates.py) - Remove Duplicate Strings
 - [Problem 37](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Reverse_str.py)- Reverse Strings
-- Problem 38 -
-- Problem 39 -
-- Problem 40 -
-- Problem 41 - 
-- Problem 42 - 
-- Problem 43 - 
-- Problem 44 -                                                                                       
-- Problem 45 - 
-- Problem 46 - 
-- Problem 47 -  
-- Problem 48 -
-- Problem 49 -
-- Problem 50 -
-- Problem 51 - 
-- Problem 52 - 
+- [Problem 38](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/sort_by_bits.py) - Sort Integers by The Number of 1 Bits    
+- [Problem 39](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/sort_relative.py) - Relative Sort Array  
+- [Problem 40](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/email_address.py) - Unique Email Addresses  
+- [Problem 41](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/fibonacci.py) - Fibonacci Number 
+- [Problem 42](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/words_form.py) - Find Words That Can Be Formed by Characters   
+- [Problem 43](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/short_dis.py) - Shortest Distance to a Character 
+- [Problem 44](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/dist_array.py) - Find the Distance Value Between Two Arrays                               
+- [Problem 45](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Chess.py) - Available Captures for Rook
+- [Problem 46](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/min_diff.py) - Minimum Absolute Difference
+- [Problem 47](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Alice_and_bob.py) - Divisor Game  
+- [Problem 48](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Goat_latin.py) -  Goat Latin    
+- [Problem 49](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Perimeter.py) -Island Perimeter   
+- [Problem 50](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Matrix.py) - Matrix Cells in Distance Order  
+- [Problem 51](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/linear_duplicates.py) - Single Number    
+- [Problem 52](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/max_height.py) - Max Increase to Keep City Skyline 
 - Problem 53 - 
 - Problem 54 -                                                                                       
 - Problem 55 - 
@@ -101,6 +101,6 @@
 - Problem 99 -
 - Proble  100 -
 ## Count:
-- Easy(E) - 34
-- Medium(M) - 0
+- Easy(E) - 51
+- Medium(M) - 1
 - Hard(H) - 0
