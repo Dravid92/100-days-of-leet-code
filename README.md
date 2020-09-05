@@ -650,7 +650,7 @@ Return the number of pawns the rook can capture in one move.
 ### Example 1:
 ![Example](https://assets.leetcode.com/uploads/2019/02/20/1253_example_1_improved.PNG)
 
-Input: 
+Input:   
 [[".",".",".",".",".",".",".","."],  
 [".",".",".","p",".",".",".","."],  
 [".",".",".","R",".",".",".","p"],  
