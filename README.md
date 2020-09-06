@@ -516,7 +516,273 @@ Do not allocate extra space for another array, you must do this by modifying the
 
 You may assume all the characters consist of printable ascii characters.
 
-## Example 1:
+### Example 1:
 
 Input: ["h","e","l","l","o"]
 Output: ["o","l","l","e","h"]
+
+## [(E)Problem 38](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/sort_by_bits.py)
+
+Given an integer array arr. You have to sort the integers in the array in ascending order by the number of 1's in their binary representation and in case of two or more integers have the same number of 1's you have to sort them in ascending order.
+
+Return the sorted array.
+
+### Example 1:
+
+Input: arr = [0,1,2,3,4,5,6,7,8]
+Output: [0,1,2,4,8,3,5,6,7]
+Explantion: [0] is the only integer with 0 bits.
+[1,2,4,8] all have 1 bit.
+[3,5,6] have 2 bits.
+[7] has 3 bits.
+The sorted array by bits is [0,1,2,4,8,3,5,6,7]
+
+## [(E)Problem 39](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/sort_relative.py)
+
+Given two arrays arr1 and arr2, the elements of arr2 are distinct, and all elements in arr2 are also in arr1.
+
+Sort the elements of arr1 such that the relative ordering of items in arr1 are the same as in arr2.  Elements that don't appear in arr2 should be placed at the end of arr1 in ascending order.
+
+### Example 1:
+
+Input: arr1 = [2,3,1,3,2,4,6,7,9,2,19], arr2 = [2,1,4,3,9,6]
+Output: [2,2,2,1,4,3,3,9,6,7,19]
+
+## [(E)Problem 40](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/email_address.py)
+
+Every email consists of a local name and a domain name, separated by the @ sign.
+
+For example, in alice@leetcode.com, alice is the local name, and leetcode.com is the domain name.
+
+Besides lowercase letters, these emails may contain '.'s or '+'s.
+
+If you add periods ('.') between some characters in the local name part of an email address, mail sent there will be forwarded to the same address without dots in the local name.  For example, "alice.z@leetcode.com" and "alicez@leetcode.com" forward to the same email address.  (Note that this rule does not apply for domain names.)
+
+If you add a plus ('+') in the local name, everything after the first plus sign will be ignored. This allows certain emails to be filtered, for example m.y+name@email.com will be forwarded to my@email.com.  (Again, this rule does not apply for domain names.)
+
+It is possible to use both of these rules at the same time.
+
+Given a list of emails, we send one email to each address in the list.  How many different addresses actually receive mails? 
+
+### Example 1:
+
+Input: ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]
+Output: 2
+Explanation: "testemail@leetcode.com" and "testemail@lee.tcode.com" actually receive mails
+
+## [(E)Problem 41](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/fibonacci.py)
+
+The Fibonacci numbers, commonly denoted F(n) form a sequence, called the Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1. That is,
+
+F(0) = 0,   F(1) = 1
+F(N) = F(N - 1) + F(N - 2), for N > 1.
+Given N, calculate F(N).
+
+### Example 1:
+
+Input: 2
+Output: 1
+Explanation: F(2) = F(1) + F(0) = 1 + 0 = 1.
+
+## [(E)Problem 42](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/words_form.py)
+
+You are given an array of strings words and a string chars.
+
+A string is good if it can be formed by characters from chars (each character can only be used once).
+
+Return the sum of lengths of all good strings in words.
+
+### Example 1:
+
+Input: words = ["cat","bt","hat","tree"], chars = "atach"
+Output: 6
+Explanation: 
+The strings that can be formed are "cat" and "hat" so the answer is 3 + 3 = 6.
+
+## [(E)Problem 43](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/short_dis.py)
+
+Input: words = ["cat","bt","hat","tree"], chars = "atach"
+Output: 6
+Explanation: 
+The strings that can be formed are "cat" and "hat" so the answer is 3 + 3 = 6.
+
+Given a string S and a character C, return an array of integers representing the shortest distance from the character C in the string.
+
+### Example 1:
+
+Input: S = "loveleetcode", C = 'e'
+Output: [3, 2, 1, 0, 1, 0, 0, 1, 2, 2, 1, 0]
+
+## [(E)Problem 44](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/dist_array.py)
+Given two integer arrays arr1 and arr2, and the integer d, return the distance value between the two arrays.
+
+The distance value is defined as the number of elements arr1[i] such that there is not any element arr2[j] where |arr1[i]-arr2[j]| <= d.
+
+### Example 1:
+
+Input: arr1 = [4,5,8], arr2 = [10,9,1,8], d = 2
+Output: 2
+Explanation: 
+For arr1[0]=4 we have: 
+|4-10|=6 > d=2 
+|4-9|=5 > d=2 
+|4-1|=3 > d=2 
+|4-8|=4 > d=2 
+For arr1[1]=5 we have: 
+|5-10|=5 > d=2 
+|5-9|=4 > d=2 
+|5-1|=4 > d=2 
+|5-8|=3 > d=2
+For arr1[2]=8 we have:
+|8-10|=2 <= d=2
+|8-9|=1 <= d=2
+|8-1|=7 > d=2
+|8-8|=0 <= d=2
+
+## [(E)Problem 45](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Chess.py)
+
+On an 8 x 8 chessboard, there is one white rook.  There also may be empty squares, white bishops, and black pawns.  These are given as characters 'R', '.', 'B', and 'p' respectively. Uppercase characters represent white pieces, and lowercase characters represent black pieces.
+
+The rook moves as in the rules of Chess: it chooses one of four cardinal directions (north, east, west, and south), then moves in that direction until it chooses to stop, reaches the edge of the board, or captures an opposite colored pawn by moving to the same square it occupies.  Also, rooks cannot move into the same square as other friendly bishops.
+
+Return the number of pawns the rook can capture in one move.
+
+### Example 1:
+![Example](https://assets.leetcode.com/uploads/2019/02/20/1253_example_1_improved.PNG)
+
+Input:   
+[[".",".",".",".",".",".",".","."],  
+[".",".",".","p",".",".",".","."],  
+[".",".",".","R",".",".",".","p"],  
+[".",".",".",".",".",".",".","."],  
+[".",".",".",".",".",".",".","."],  
+[".",".",".","p",".",".",".","."],  
+[".",".",".",".",".",".",".","."],  
+[".",".",".",".",".",".",".","."]]  
+Output: 3
+Explanation: 
+In this example the rook is able to capture all the pawns.
+
+## [(E)Problem 46](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/min_diff.py)
+
+Given an array of distinct integers arr, find all pairs of elements with the minimum absolute difference of any two elements. 
+
+Return a list of pairs in ascending order(with respect to pairs), each pair [a, b] follows
+
+a, b are from arr
+a < b
+b - a equals to the minimum absolute difference of any two elements in arr
+ 
+
+### Example 1:
+
+Input: arr = [4,2,1,3]
+Output: [[1,2],[2,3],[3,4]]
+Explanation: The minimum absolute difference is 1. List all pairs with difference equal to 1 in ascending order.
+## [(E)Problem 47](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Alice_and_bob.py)
+Alice and Bob take turns playing a game, with Alice starting first.
+
+Initially, there is a number N on the chalkboard.  On each player's turn, that player makes a move consisting of:
+
+Choosing any x with 0 < x < N and N % x == 0.
+Replacing the number N on the chalkboard with N - x.
+Also, if a player cannot make a move, they lose the game.
+
+Return True if and only if Alice wins the game, assuming both players play optimally.
+
+### Example 1:
+
+Input: 2
+Output: true
+Explanation: Alice chooses 1, and Bob has no more moves.
+
+## [(E)Problem 48](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Goat_latin.py)
+A sentence S is given, composed of words separated by spaces. Each word consists of lowercase and uppercase letters only.
+
+We would like to convert the sentence to "Goat Latin" (a made-up language similar to Pig Latin.)
+
+The rules of Goat Latin are as follows:
+
+If a word begins with a vowel (a, e, i, o, or u), append "ma" to the end of the word.
+For example, the word 'apple' becomes 'applema'.
+ 
+If a word begins with a consonant (i.e. not a vowel), remove the first letter and append it to the end, then add "ma".
+For example, the word "goat" becomes "oatgma".
+ 
+Add one letter 'a' to the end of each word per its word index in the sentence, starting with 1.
+For example, the first word gets "a" added to the end, the second word gets "aa" added to the end and so on.
+Return the final sentence representing the conversion from S to Goat Latin. 
+
+### Example 1:
+
+Input: "I speak Goat Latin"
+Output: "Imaa peaksmaaa oatGmaaaa atinLmaaaaa"
+## [(E)Problem 49](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Perimeter.py)
+You are given a map in form of a two-dimensional integer grid where 1 represents land and 0 represents water.
+
+Grid cells are connected horizontally/vertically (not diagonally). The grid is completely surrounded by water, and there is exactly one island (i.e., one or more connected land cells).
+
+The island doesn't have "lakes" (water inside that isn't connected to the water around the island). One cell is a square with side length 1. The grid is rectangular, width and height don't exceed 100. Determine the perimeter of the island.
+
+### Example:
+
+Input:
+[[0,1,0,0],
+ [1,1,1,0],
+ [0,1,0,0],
+ [1,1,0,0]]
+ 
+## [(E)Problem 50](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Matrix.py)
+We are given a matrix with R rows and C columns has cells with integer coordinates (r, c), where 0 <= r < R and 0 <= c < C.
+
+Additionally, we are given a cell in that matrix with coordinates (r0, c0).
+
+Return the coordinates of all cells in the matrix, sorted by their distance from (r0, c0) from smallest distance to largest distance.  Here, the distance between two cells (r1, c1) and (r2, c2) is the Manhattan distance, |r1 - r2| + |c1 - c2|.  (You may return the answer in any order that satisfies this condition.)
+
+### Example 1:
+
+Input: R = 1, C = 2, r0 = 0, c0 = 0
+Output: [[0,0],[0,1]]
+Explanation: The distances from (r0, c0) to other cells are: [0,1]
+
+## [(E)Problem 51](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/linear_duplicates.py)
+
+Given a non-empty array of integers, every element appears twice except for one. Find that single one.
+
+Note:
+
+Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
+
+### Example 1:
+
+Input: [2,2,1]
+Output: 1
+
+## [(M)Problem 52](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/max_height.py)
+
+In a 2 dimensional array grid, each value grid[i][j] represents the height of a building located there. We are allowed to increase the height of any number of buildings, by any amount (the amounts can be different for different buildings). Height 0 is considered to be a building as well. 
+
+At the end, the "skyline" when viewed from all four directions of the grid, i.e. top, bottom, left, and right, must be the same as the skyline of the original grid. A city's skyline is the outer contour of the rectangles formed by all the buildings when viewed from a distance. See the following example.
+
+What is the maximum total sum that the height of the buildings can be increased?
+
+### Example:
+
+Input: grid = [[3,0,8,4],[2,4,5,7],[9,2,6,3],[0,3,1,0]]
+Output: 35
+Explanation: 
+The grid is:
+[ [3, 0, 8, 4], 
+  [2, 4, 5, 7],
+  [9, 2, 6, 3],
+  [0, 3, 1, 0] ]
+
+The skyline viewed from top or bottom is: [9, 4, 8, 7]
+The skyline viewed from left or right is: [8, 7, 9, 3]
+
+The grid after increasing the height of buildings without affecting skylines is:
+
+gridNew = [ [8, 4, 8, 7],
+            [7, 4, 7, 7],
+            [9, 4, 8, 7],
+            [3, 3, 3, 3] ]
