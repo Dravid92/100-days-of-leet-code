@@ -52,7 +52,7 @@
 - [Problem 50](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Matrix.py) - Matrix Cells in Distance Order  
 - [Problem 51](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/linear_duplicates.py) - Single Number    
 - [Problem 52](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/max_height.py) - Max Increase to Keep City Skyline 
-- Problem 53 - 
+- [Problem 53](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/count_teams.py)- Count the number of Teams
 - Problem 54 -                                                                                       
 - Problem 55 - 
 - Problem 56 - 
@@ -102,5 +102,5 @@
 - Proble  100 -
 ## Count:
 - Easy(E) - 51
-- Medium(M) - 1
+- Medium(M) - 2
 - Hard(H) - 0
