@@ -53,7 +53,7 @@
 - [Problem 51](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/linear_duplicates.py) - Single Number    
 - [Problem 52](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/max_height.py) - Max Increase to Keep City Skyline 
 - [Problem 53](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/count_teams.py)- Count the number of Teams
-- Problem 54 -                                                                                       
+- [Problem 54](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/queries_perm.py) - Queries on a Permutation                                                                                      
 - Problem 55 - 
 - Problem 56 - 
 - Problem 57 -  
@@ -102,5 +102,5 @@
 - Proble  100 -
 ## Count:
 - Easy(E) - 51
-- Medium(M) - 2
+- Medium(M) - 3
 - Hard(H) - 0
