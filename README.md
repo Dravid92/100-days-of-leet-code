@@ -54,7 +54,7 @@
 - [Problem 52](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/max_height.py) - Max Increase to Keep City Skyline 
 - [Problem 53](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/count_teams.py)- Count the number of Teams
 - [Problem 54](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/queries_perm.py) - Queries on a Permutation                                                                                      
-- Problem 55 - 
+- [Problem 55](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Maximum_coins.py) - Maximum Number of Coins
 - Problem 56 - 
 - Problem 57 -  
 - Problem 58 -
