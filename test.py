@@ -1,3 +1,4 @@
-s = "codeleet"
-s.insert(1,'a')
-print(s)
+sentence = "i love eating burger"
+searchWord = "burg"
+searchWord += 'o'
+print(searchWord)
