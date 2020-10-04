@@ -844,3 +844,375 @@ Explanation: Choose the triplet (2, 7, 8), Alice Pick the pile with 8 coins, you
 Choose the triplet (1, 2, 4), Alice Pick the pile with 4 coins, you the pile with 2 coins and Bob the last one.
 The maximum number of coins which you can have are: 7 + 2 = 9.
 On the other hand if we choose this arrangement (1, 2, 8), (2, 4, 7) you only get 2 + 4 = 6 coins which is not optimal.
+
+## [(E)Problem 56](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/shuffle_string.py)
+
+Given a string s and an integer array indices of the same length.
+
+The string s will be shuffled such that the character at the ith position moves to indices[i] in the shuffled string.
+
+Return the shuffled string.
+
+### Example 1:
+
+Input: s = "codeleet", indices = [4,5,6,7,0,2,1,3]
+Output: "leetcode"
+Explanation: As shown, "codeleet" becomes "leetcode" after shuffling.
+
+## [(E)Problem 57](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Triplets.py)
+Given an array of integers arr, and three integers a, b and c. You need to find the number of good triplets.
+
+A triplet (arr[i], arr[j], arr[k]) is good if the following conditions are true:
+
+0 <= i < j < k < arr.length
+|arr[i] - arr[j]| <= a
+|arr[j] - arr[k]| <= b
+|arr[i] - arr[k]| <= c
+Where |x| denotes the absolute value of x.
+
+Return the number of good triplets.
+
+### Example 1:
+
+Input: arr = [3,0,1,1,9,7], a = 7, b = 2, c = 3
+Output: 4
+Explanation: There are 4 good triplets: [(3,0,1), (3,0,1), (3,1,1), (0,1,1)].
+## [(E)Problem 58](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Matrix_diagonal_sum.py)
+
+Given a square matrix mat, return the sum of the matrix diagonals.
+
+Only include the sum of all the elements on the primary diagonal and all the elements on the secondary diagonal that are not part of the primary diagonal.
+
+### Example 1:
+
+Input: mat = [[1,2,3],
+              [4,5,6],
+              [7,8,9]]
+Output: 25
+Explanation: Diagonals sum: 1 + 5 + 9 + 3 + 7 = 25
+Notice that element mat[1][1] = 5 is counted only once.
+
+## [(E)Problem 59](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/min_tim_visting.py)
+On a plane there are n points with integer coordinates points[i] = [xi, yi]. Your task is to find the minimum time in seconds to visit all points.
+
+You can move according to the next rules:
+
+In one second always you can either move vertically, horizontally by one unit or diagonally (it means to move one unit vertically and one unit horizontally in one second).
+You have to visit the points in the same order as they appear in the array.
+ 
+### Example 1:
+
+Input: points = [[1,1],[3,4],[-1,0]]
+Output: 7
+Explanation: One optimal path is [1,1] -> [2,2] -> [3,3] -> [3,4] -> [2,3] -> [1,2] -> [0,1] -> [-1,0]   
+Time from [1,1] to [3,4] = 3 seconds 
+Time from [3,4] to [-1,0] = 4 seconds
+Total time = 7 seconds
+
+## [(E)Problem 60](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/word_prefix.py)
+Given a sentence that consists of some words separated by a single space, and a searchWord.
+
+You have to check if searchWord is a prefix of any word in sentence.
+
+Return the index of the word in sentence where searchWord is a prefix of this word (1-indexed).
+
+If searchWord is a prefix of more than one word, return the index of the first word (minimum index). If there is no such word return -1.
+
+A prefix of a string S is any leading contiguous substring of S.
+
+### Example 1:
+
+Input: sentence = "i love eating burger", searchWord = "burg"
+Output: 4
+Explanation: "burg" is prefix of "burger" which is the 4th word in the sentence.
+
+## [(M)Problem 61](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/min_operation.py)
+You have an array arr of length n where arr[i] = (2 * i) + 1 for all valid values of i (i.e. 0 <= i < n).
+
+In one operation, you can select two indices x and y where 0 <= x, y < n and subtract 1 from arr[x] and add 1 to arr[y] (i.e. perform arr[x] -=1 and arr[y] += 1). The goal is to make all the elements of the array equal. It is guaranteed that all the elements of the array can be made equal using some operations.
+
+Given an integer n, the length of the array. Return the minimum number of operations needed to make all the elements of arr equal.
+
+### Example 1:
+
+Input: n = 3
+Output: 2
+Explanation: arr = [1, 3, 5]
+First operation choose x = 2 and y = 0, this leads arr to be [2, 3, 4]
+In the second operation choose x = 2 and y = 0 again, thus arr = [3, 3, 3].
+
+## [(E)Problem 62](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/odd_matrix.py)
+
+Given n and m which are the dimensions of a matrix initialized by zeros and given an array indices where indices[i] = [ri, ci]. For each pair of [ri, ci] you have to increment all cells in row ri and column ci by 1.
+
+Return the number of cells with odd values in the matrix after applying the increment to all indices.
+
+### Example 1:
+
+Input: n = 2, m = 3, indices = [[0,1],[1,1]]
+Output: 6
+Explanation: Initial matrix = [[0,0,0],[0,0,0]].
+After applying first increment it becomes [[1,2,1],[0,1,0]].
+The final matrix will be [[1,3,1],[1,3,1]] which contains 6 odd numbers.
+
+## [(M)Problem 63](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Group.py)
+
+There are n people that are split into some unknown number of groups. Each person is labeled with a unique ID from 0 to n - 1.
+
+You are given an integer array groupSizes, where groupSizes[i] is the size of the group that person i is in. For example, if groupSizes[1] = 3, then person 1 must be in a group of size 3.
+
+Return a list of groups such that each person i is in a group of size groupSizes[i].
+
+Each person should appear in exactly one group, and every person must be in a group. If there are multiple answers, return any of them. It is guaranteed that there will be at least one valid solution for the given input.
+
+### Example 1:
+
+Input: groupSizes = [3,3,3,3,3,1,3]
+Output: [[5],[0,1,2],[3,4,6]]
+Explanation: 
+The first group is [5]. The size is 1, and groupSizes[5] = 1.
+The second group is [0,1,2]. The size is 3, and groupSizes[0] = groupSizes[1] = groupSizes[2] = 3.
+The third group is [3,4,6]. The size is 3, and groupSizes[3] = groupSizes[4] = groupSizes[6] = 3.
+Other possible solutions are [[2,1,6],[5],[0,4,3]] and [[5],[0,6,2],[4,3,1]].
+
+## [(M)Problem 64](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/min_paran.py)
+
+Given a string S of '(' and ')' parentheses, we add the minimum number of parentheses ( '(' or ')', and in any positions ) so that the resulting parentheses string is valid.
+
+Formally, a parentheses string is valid if and only if:
+
+It is the empty string, or
+It can be written as AB (A concatenated with B), where A and B are valid strings, or
+It can be written as (A), where A is a valid string.
+Given a parentheses string, return the minimum number of parentheses we must add to make the resulting string valid.
+
+### Example 1:
+
+Input: "())"
+Output: 1
+## [(E)Problem 65](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/number_compliment.py)
+Given a positive integer num, output its complement number. The complement strategy is to flip the bits of its binary representation.
+
+### Example 1:
+
+Input: num = 5
+Output: 2
+Explanation: The binary representation of 5 is 101 (no leading zero bits), and its complement is 010. So you need to output 2.
+
+## [(M)Problem 66](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/dupl_arr.py)
+
+Given an array of integers, 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
+
+Find all the elements that appear twice in this array.
+
+Could you do it without extra space and in O(n) runtime?
+
+### Example:
+Input:
+[4,3,2,7,8,2,3,1]
+
+Output:
+[2,3]
+
+## [(E)Problem 67](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/board.py)
+
+Given a List of words, return the words that can be typed using letters of alphabet on only one row's of American keyboard like the image below.
+
+### Example:
+
+Input: ["Hello", "Alaska", "Dad", "Peace"]
+Output: ["Alaska", "Dad"]
+
+## [(M)Problem 68](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/sort_by_power.py)
+
+The power of an integer x is defined as the number of steps needed to transform x into 1 using the following steps:
+
+if x is even then x = x / 2
+if x is odd then x = 3 * x + 1
+For example, the power of x = 3 is 7 because 3 needs 7 steps to become 1 (3 --> 10 --> 5 --> 16 --> 8 --> 4 --> 2 --> 1).
+
+Given three integers lo, hi and k. The task is to sort all integers in the interval [lo, hi] by the power value in ascending order, if two or more integers have the same power value sort them by ascending order.
+
+Return the k-th integer in the range [lo, hi] sorted by the power value.
+
+Notice that for any integer x (lo <= x <= hi) it is guaranteed that x will transform into 1 using these steps and that the power of x is will fit in 32 bit signed integer.
+
+### Example 1:
+
+Input: lo = 12, hi = 15, k = 2
+Output: 13
+Explanation: The power of 12 is 9 (12 --> 6 --> 3 --> 10 --> 5 --> 16 --> 8 --> 4 --> 2 --> 1)
+The power of 13 is 9
+The power of 14 is 17
+The power of 15 is 17
+The interval sorted by the power value [12,13,14,15]. For k = 2 answer is the second element which is 13.
+Notice that 12 and 13 have the same power value and we sorted them in ascending order. Same for 14 and 15.
+
+## [(E)Problem 69](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Next_greatest.py)
+
+You are given two arrays (without duplicates) nums1 and nums2 where nums1’s elements are subset of nums2. Find all the next greater numbers for nums1's elements in the corresponding places of nums2.
+
+The Next Greater Number of a number x in nums1 is the first greater number to its right in nums2. If it does not exist, output -1 for this number.
+
+### Example 1:
+
+Input: nums1 = [4,1,2], nums2 = [1,3,4,2].
+Output: [-1,3,-1]
+Explanation:
+    For number 4 in the first array, you cannot find the next greater number for it in the second array, so output -1.
+    For number 1 in the first array, the next greater number for it in the second array is 3.
+    For number 2 in the first array, there is no next greater number for it in the second array, so output -1.
+    
+## [(E)Problem 70](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/lucky_num_2.py)
+
+Given an array of integers arr, a lucky integer is an integer which has a frequency in the array equal to its value.
+
+Return a lucky integer in the array. If there are multiple lucky integers return the largest of them. If there is no lucky integer return -1.
+
+### Example 1:
+
+Input: arr = [2,2,3,4]
+Output: 2
+Explanation: The only lucky number in the array is 2 because frequency[2] == 2.
+## [(M)Problem 71](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/permut.py)
+
+Given a collection of distinct integers, return all possible permutations.
+
+### Example:
+
+Input: [1,2,3]
+Output:
+[
+  [1,2,3],
+  [1,3,2],
+  [2,1,3],
+  [2,3,1],
+  [3,1,2],
+  [3,2,1]
+]
+## [(E)Problem 72](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/uncommon.py)
+We are given two sentences A and B.  (A sentence is a string of space separated words.  Each word consists only of lowercase letters.)
+
+A word is uncommon if it appears exactly once in one of the sentences, and does not appear in the other sentence.
+
+Return a list of all uncommon words. 
+
+You may return the list in any order.
+
+### Example 1:
+
+Input: A = "this apple is sweet", B = "this apple is sour"
+Output: ["sweet","sour"]
+
+## [(M)Problem 73](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/candies.py)
+We distribute some number of candies, to a row of n = num_people people in the following way:
+
+We then give 1 candy to the first person, 2 candies to the second person, and so on until we give n candies to the last person.
+
+Then, we go back to the start of the row, giving n + 1 candies to the first person, n + 2 candies to the second person, and so on until we give 2 * n candies to the last person.
+
+This process repeats (with us giving one more candy each time, and moving to the start of the row after we reach the end) until we run out of candies.  The last person will receive all of our remaining candies (not necessarily one more than the previous gift).
+
+Return an array (of length num_people and sum candies) that represents the final distribution of candies.
+
+### Example 1:
+
+Input: candies = 7, num_people = 4
+Output: [1,2,3,1]
+Explanation:
+On the first turn, ans[0] += 1, and the array is [1,0,0,0].
+On the second turn, ans[1] += 2, and the array is [1,2,0,0].
+On the third turn, ans[2] += 3, and the array is [1,2,3,0].
+On the fourth turn, ans[3] += 1 (because there is only one candy left), and the final array is [1,2,3,1].
+## [(M)Problem 74](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/search_sugg.py)
+Given an array of strings products and a string searchWord. We want to design a system that suggests at most three product names from products after each character of searchWord is typed. Suggested products should have common prefix with the searchWord. If there are more than three products with a common prefix return the three lexicographically minimums products.
+
+Return list of lists of the suggested products after each character of searchWord is typed. 
+
+### Example 1:
+
+Input: products = ["mobile","mouse","moneypot","monitor","mousepad"], searchWord = "mouse"
+Output: [
+["mobile","moneypot","monitor"],
+["mobile","moneypot","monitor"],
+["mouse","mousepad"],
+["mouse","mousepad"],
+["mouse","mousepad"]
+]
+Explanation: products sorted lexicographically = ["mobile","moneypot","monitor","mouse","mousepad"]
+After typing m and mo all products match and we show user ["mobile","moneypot","monitor"]
+After typing mou, mous and mouse the system suggests ["mouse","mousepad"]
+## [(M)Problem 75]
+## [(E)Problem 76](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/fizz_buzz.py)
+
+Write a program that outputs the string representation of numbers from 1 to n.
+
+But for multiples of three it should output “Fizz” instead of the number and for the multiples of five output “Buzz”. For numbers which are multiples of both three and five output “FizzBuzz”.
+
+### Example:
+
+n = 15,
+
+Return:
+[
+    "1",
+    "2",
+    "Fizz",
+    "4",
+    "Buzz",
+    "Fizz",
+    "7",
+    "8",
+    "Fizz",
+    "Buzz",
+    "11",
+    "Fizz",
+    "13",
+    "14",
+    "FizzBuzz"
+]
+## [(E)Problem 77](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/intersection.py)
+
+Given two arrays, write a function to compute their intersection.
+
+### Example 1:
+
+Input: nums1 = [1,2,2,1], nums2 = [2,2]
+Output: [2]
+## [(E)Problem 78](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/strings_match.py)
+
+Given an array of string words. Return all strings in words which is substring of another word in any order. 
+
+String words[i] is substring of words[j], if can be obtained removing some characters to left and/or right side of words[j].
+
+### Example 1:
+
+Input: words = ["mass","as","hero","superhero"]
+Output: ["as","hero"]
+Explanation: "as" is substring of "mass" and "hero" is substring of "superhero".
+["hero","as"] is also a valid answer.
+## [(E)Problem 79](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/transpose.py)
+
+Given a matrix A, return the transpose of A.
+
+The transpose of a matrix is the matrix flipped over it's main diagonal, switching the row and column indices of the matrix.
+
+### Example 1:
+
+Input: [[1,2,3],[4,5,6],[7,8,9]]
+Output: [[1,4,7],[2,5,8],[3,6,9]]
+
+## [(E)Problem 80](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/water_bottles.py)
+
+Given numBottles full water bottles, you can exchange numExchange empty water bottles for one full water bottle.
+
+The operation of drinking a full water bottle turns it into an empty bottle.
+
+Return the maximum number of water bottles you can drink.
+
+### Example 1:
+
+Input: numBottles = 9, numExchange = 3
+Output: 13
+Explanation: You can exchange 3 empty bottles to get 1 full water bottle.
+Number of water bottles you can drink: 9 + 3 + 1 = 13.
