@@ -101,6 +101,6 @@
 - Problem 99 -
 - Proble  100 -
 ## Count:
-- Easy(E) - 58
+- Easy(E) - 67
 - Medium(M) - 12
 - Hard(H) - 0
