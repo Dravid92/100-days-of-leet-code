@@ -55,31 +55,31 @@
 - [Problem 53](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/count_teams.py)- Count the number of Teams
 - [Problem 54](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/queries_perm.py) - Queries on a Permutation                                             
 - [Problem 55](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Maximum_coins.py) - Maximum Number of Coins
-- Problem 56 - 
-- Problem 57 -  
-- Problem 58 -
-- Problem 59 -
-- Problem 60 -
-- Problem 61 - 
-- Problem 62 - 
-- Problem 63 - 
-- Problem 64 -                                                                                       
-- Problem 65 - 
-- Problem 66 - 
-- Problem 67 -  
-- Problem 68 -
-- Problem 69 -
-- Problem 70 -
-- Problem 71 - 
-- Problem 72 - 
-- Problem 73 - 
-- Problem 74 -                                                                                       
-- Problem 75 - 
-- Problem 76 - 
-- Problem 77 -  
-- Problem 78 -
-- Problem 79 -
-- Problem 80 -
+- [Problem 56](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/shuffle_string.py) - Shuffle Strings
+- [Problem 57](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Triplets.py) -  Triplets
+- [Problem 58](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Matrix_diagonal_sum.py) - Matrix Diagonal Sum
+- [Problem 59](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/min_tim_visting.py) - Minimum Time Visting All the Points 
+- [Problem 60](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/word_prefix.py) - Check If a Word Occurs As a Prefix of Any Word in a Sentence
+- [Problem 61](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/min_operation.py) - Minimum Operations to Make Array Equal 
+- [Problem 62](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/odd_matrix.py) - Cells with Odd Values in a Matrix
+- [Problem 63](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Group.py) - Group the People Given the Group Size They Belong To
+- [Problem 64](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/min_paran.py) -  Minimum Add to Make Parentheses Valid                                             
+- [Problem 65](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/number_compliment.py) - Number Compliment 
+- [Problem 66](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/dupl_arr.py) - Find All Duplicates in an Array
+- [Problem 67](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/board.py) -  Keyboard Row
+- [Problem 68](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/sort_by_power.py) - Sort Integers by The Power Value
+- [Problem 69](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Next_greatest.py) - Next Greater Element I
+- [Problem 70](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/lucky_num_2.py) - Find Lucky Integer in an Array
+- [Problem 71](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/permut.py) - Permutation
+- [Problem 72](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/uncommon.py) - Uncommon Words from Two Sentences
+- [Problem 73](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/candies.py) - Distribute Candies to People
+- [Problem 74](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/search_sugg.py) - Search Suggestions System                                                        
+- Problem 75 - Sorting Algorithm (merge , bubble or something)
+- [Problem 76](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/fizz_buzz.py) - Fizz Buzz
+- [Problem 77](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/intersection.py) -  Intersection of two array
+- [Problem 78](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/strings_match.py) -String Matching in an Array
+- [Problem 79](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/transpose.py) -Transpose Matrix
+- [Problem 80](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/water_bottles.py) - Water Bottles
 - Problem 81 - 
 - Problem 82 - 
 - Problem 83 - 
@@ -101,6 +101,6 @@
 - Problem 99 -
 - Proble  100 -
 ## Count:
-- Easy(E) - 51
-- Medium(M) - 3
+- Easy(E) - 58
+- Medium(M) - 12
 - Hard(H) - 0
