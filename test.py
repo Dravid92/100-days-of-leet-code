@@ -1,4 +1,1 @@
-sentence = "i love eating burger"
-searchWord = "burg"
-searchWord += 'o'
-print(searchWord)
+print(ord('B')- ord('b'))
