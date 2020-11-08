@@ -80,27 +80,27 @@
 - [Problem 78](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/strings_match.py) -String Matching in an Array
 - [Problem 79](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/transpose.py) -Transpose Matrix
 - [Problem 80](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/water_bottles.py) - Water Bottles
-- Problem 81 - 
-- Problem 82 - 
-- Problem 83 - 
-- Problem 84 -                                                                                       
-- Problem 85 - 
-- Problem 86 - 
-- Problem 87 -  
-- Problem 88 -
-- Problem 89 -
-- Problem 90 -
-- Problem 91 - 
-- Problem 92 - 
-- Problem 93 - 
-- Problem 94 -                                                                                       
-- Problem 95 - 
-- Problem 96 - 
-- Problem 97 -  
-- Problem 98 -
-- Problem 99 -
-- Proble  100 -
+- [Problem 81](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/k_close.py) - K closest to origin
+- [Problem 82](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/temp.py) - Daily Temperatures 
+- [Problem 83](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/last_stone_weight.py) - Last Stone weight 
+- [Problem 84](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/max_no_balloons.py) - Maximum number of Balloons            
+- [Problem 85](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/duplicate_zeros.py) - Duplicate Zeros
+- [Problem 86](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/single%20number_3.py) - Single Number 3
+- [Problem 87](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Kth%20Largest.py) -  Kth Largest
+- [Problem 88](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/reverse_int.py) - Reverse Integer
+- [Problem 89](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/Palindrome.py) - Palindrome
+- [Problem 90](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/long_substr.py) - Longest Substring
+- [Problem 91](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/great_str.py) - Greatest String
+- [Problem 92](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/25_arr.py) - 25 percentage of array
+- [Problem 93](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/stronger.py) - Strongest element
+- [Problem 94](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/cons_odd.py) - Three consecutive odd     
+- [Problem 95](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/median_sort.py) - Median of two sorted array
+- [Problem 96](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/two_sum.py) - Two Sum 
+- [Problem 97](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/count_odd.py) -Count odd in interval range  
+- [Problem 98](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/add_array.py) -Add array form of integer
+- [Problem 99](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/single%20number_2.py) - Single Number 2
+- [Problem  100](https://github.com/Dravid92/100-days-of-leet-code/blob/Dravid/pivot.py) - Find the pivot index
 ## Count:
-- Easy(E) - 67
-- Medium(M) - 12
-- Hard(H) - 0
+- Easy(E) - 93
+- Medium(M) - 16
+- Hard(H) - 1
